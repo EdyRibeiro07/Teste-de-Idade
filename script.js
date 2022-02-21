@@ -15,8 +15,13 @@ function verificar(){
         var sexo = window.document.querySelector('input.lopc')
         var img = window.document.querySelector('img')
         var msg = window.document.querySelector('p')
+        
 
-        msg.innerText = `${genero}, de ${Idade} Anos`
+        if(sexo[0] == True){
+
+        }
+
+        msg.innerText = ` de ${idade} Anos`
     }
 
 }

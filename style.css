@@ -49,7 +49,7 @@ section{
 .ano{
     padding-top: 20px;
     display: flex;
-    align-items:initial;
+    align-items:center;
     margin-left: 35px;
 }
 
@@ -61,29 +61,38 @@ input{
 }
 
 .radio{
-    margin: 0px;
     margin-left: 35px;
+
     display: flex;
+    justify-content:left;
+    flex-direction: row;
+
 }
 
 .opc{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    display: block;
 }
 
-
+.botao{
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 80px;
+}
 
 img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin: auto;
 }
 
 .msg{
     height: 100px;
     width: 100%;
-    background-color:aqua;
+    background-color:#FDFEFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{

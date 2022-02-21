@@ -44,6 +44,7 @@ section{
     height: auto;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 .ano{
@@ -93,6 +94,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 footer{
